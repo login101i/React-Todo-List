@@ -1,0 +1,35 @@
+.todoList__container{
+    max-width: 1600px;
+    min-width: 800px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(30, 24, 150);
+
+}
+
+.todo__list{
+    text-align:'center';
+        flex-direction: row;
+            display:flex;
+            justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+@media (max-width:800px){
+  .todoList__container{
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(30, 24, 150);
+    padding:0px 10px;
+
+}
+    .todo__list{
+        flex-direction:column;
+    }
+  }
+
